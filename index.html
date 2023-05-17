@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+ <main>
+    <div class="wrap">
+        <section class="heading">
+            <p class="title">To Do List</p>
+            <p class="subtitle">Manage & Search Your Pending Tasks In Clicks. </p>
+        </section>
+
+        <section class="task-manager">
+            <div class="search-box">
+                <form class="search">
+                    <input type="text" name="task" placeholder="search task" autocomplete="off">
+                    <i class="fa-solid fa-x reset"></i>
+                
+                </form>
+            </div>
+            <div class="task-box">
+                <ul class="tasks">
+                    <li>
+                        <span>Task 1</span>
+                        <i class="fa-solid fa-trash delete"></i>
+                    </li>
+                   
+                </ul>
+                <form class="add">
+                    <input type="text" name="task" placeholder="add task" autocomplete="off">
+                    <input type="submit" value="Add" class="submit">
+                </form>
+            </div>
+
+            <div class="message">
+                <span></span>
+                <button class="clear">Clear All</button>
+            </div>
+        </section>
+    </div>
+ </main>
+    
+
+
+<script src="main.js"></script>
+</body>
+</html>
